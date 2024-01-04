@@ -1,0 +1,29 @@
+/* BottomNav.css */
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff; /* ou a cor que você preferir */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+
+  
+  .bottom-nav a {
+    text-decoration: none;
+    color: #333; /* ou qualquer cor que você queira */
+    font-weight: bold;
+  }
+  
+  .bottom-nav button {
+    border: none;
+    background: none;
+    color: #333; /* ou qualquer cor que você queira */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

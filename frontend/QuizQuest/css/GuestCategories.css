@@ -1,0 +1,66 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+    width: 100vw; /* Largura deve ser 100% da viewport */
+    padding: 20px; /* Espaçamento em volta do conteúdo*/
+    box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Certifique-se de que o contêiner ocupa a altura total da tela */
+    position: relative;
+  
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-items: center; /* Centraliza os itens horizontalmente */
+    padding: 20px;
+  }
+  
+  .category-card {
+    width: 150px; /* Largura fixa para os cartões */
+    height: 150px; /* Altura fixa para os cartões */
+    background-color: #fff; /* Fundo branco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Organizar o conteúdo em colunas */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-size: 60%; /* Ajuste o tamanho da imagem de fundo */
+    background-repeat: no-repeat; /* Não repita a imagem de fundo */
+    background-position: center 20%; /* Posicione a imagem de fundo no centro e um pouco acima do centro */
+  }
+  
+  .category-name {
+    margin-top: auto; /* Empurra o texto para baixo */
+    margin-bottom: 10px; /* Espaçamento abaixo do texto */
+    font-size: 1em; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    background: none; /* Sem fundo para o texto */
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profile-icon {
+    height: 50px; /* Ajuste conforme necessário */
+    width: 50px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para tornar o ícone redondo */
+    margin-right: 10px;
+  }

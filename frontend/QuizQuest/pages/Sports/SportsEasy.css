@@ -1,0 +1,41 @@
+.sports-easy-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+  width: 100vw; /* Largura deve ser 100% da viewport */
+  padding: 20px; /* Espaçamento em volta do conteúdo*/
+  box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+  background-color: #ffcc00; /* Cor de fundo amarela */
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh; /* Certifique-se de que o contêiner ocupa a altura total da tela */
+  position: relative;
+}
+
+.sports-easy-header {
+  /* Estilos para o cabeçalho */
+}
+
+.sports-easy-levels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 10px; /* Espaço entre os cartões */
+  margin: 20px 0; /* Margem vertical para os cartões */
+}
+
+.level-card {
+  background-color: green; /* Cor de fundo dos cartões de nível */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Centralizar texto */
+  /* Adicionar mais estilos conforme a imagem */
+}
+
+.level-stars {
+  /* Estilos para as estrelas */
+}
+
+.sports-easy-footer {
+  /* Estilos para a barra de navegação inferior */
+}

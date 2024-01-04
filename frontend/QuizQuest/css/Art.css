@@ -1,0 +1,47 @@
+/* Art.css */
+.art-container {
+    background-color: #ffc107; /* Cor de fundo lilás para arte */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+    width: 100vw; /* Largura deve ser 100% da viewport */
+    padding: 20px; /* Espaçamento em volta do conteúdo*/
+    box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+  }
+
+  .art-title {
+    color: white; /* Cor do texto roxo */
+    margin-bottom: 30px;
+    font-size: 48px;
+  }
+
+  .difficulty-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .easy {
+    background-color: #8bc34a; /* Cor de fundo para Easy */
+  }
+
+  .medium {
+    background-color: #ffc107; /* Cor de fundo para Medium */
+  }
+
+  .hard {
+    background-color: #f44336; /* Cor de fundo para Hard */
+}

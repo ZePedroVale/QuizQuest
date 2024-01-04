@@ -1,0 +1,135 @@
+.question-easy-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+    width: 100vw; /* Largura deve ser 100% da viewport */
+    padding: 20px; /* Espaçamento em volta do conteúdo*/
+    box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Certifique-se de que o contêiner ocupa a altura total da tela */
+    position: relative;
+  }
+
+  .question-progress {
+    margin-top: 20px; /* Espaçamento acima do indicador */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    background-color: #f2f2f2; /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 1.1em; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
+  
+  .question-easy-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .question-image-container {
+    text-align: center; /* Centraliza a imagem */
+    margin: 10px 0; /* Espaço antes e depois da imagem */
+  }
+  
+  .question-image {
+    width: auto; /* Largura automática para manter a proporção da imagem */
+    height: 150px; /* Altura definida para a imagem */
+    border-radius: 10px; /* Borda arredondada para a imagem */
+    object-fit: cover; /* Garante que a imagem cubra o espaço disponível sem distorcer */
+  }
+  
+  
+  .question-card {
+    background-color: #ffffcc; /* Cor de fundo do cartão de pergunta */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .answers-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answer-button {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .answer-button:hover, .answer-button.selected {
+    background-color: #e6e6e6; /* Cor de fundo ao passar o mouse ou selecionar */
+  }
+  
+  .next-button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    float: right; /* Botão alinhado à direita */
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .question-footer {
+    text-align: right;
+  }
+  
+
+  .quiz-completion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffcc00; /* Mantendo a mesma cor de fundo */
+    text-align: center;
+    position: relative;
+  }
+  
+  .quiz-completion-card {
+    background-color: #ffffcc; /* Cor de fundo similar ao question-card */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .quiz-completion-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .finish-quiz-button {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .finish-quiz-button:hover {
+    background-color: #e6e6e6;
+  }
+  

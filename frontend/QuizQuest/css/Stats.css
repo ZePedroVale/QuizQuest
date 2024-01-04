@@ -1,0 +1,110 @@
+/* Stats.css */
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+    width: 100vw; /* Largura deve ser 100% da viewport */
+    padding: 20px; /* Espaçamento em volta do conteúdo*/
+    box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Certifique-se de que o contêiner ocupa a altura total da tela */
+    position: relative;
+  }
+  
+  .leaderboard-header {
+    background: #fdd835; /* Cor de fundo para o cabeçalho */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .leaderboard-header h2 {
+    color: #fff; /* Cor do texto */
+    margin: 0;
+  }
+  
+  .top-players {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background: #ffee58; /* Cor de fundo para a área dos top players */
+  }
+  
+  .player-profile {
+    text-align: center;
+  }
+  
+  .player-avatar {
+    width: 60px; /* Tamanho maior do avatar */
+    height: 60px;
+    border-radius: 50%; /* Circular avatars */
+    border: 2px solid #fff; /* Borda branca */
+  }
+  
+  .player-name {
+    color: #333; /* Cor do texto */
+    margin-top: 8px;
+    font-size: 14px; /* Tamanho da fonte */
+  }
+  
+  .view-toggle {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .view-toggle button {
+    background: #ffc107; /* Cor de fundo para os botões */
+    color: #333; /* Cor do texto */
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold; /* Texto em negrito */
+  }
+  
+  .view-toggle button.active {
+    background: #ffca28; /* Cor de fundo para o botão ativo */
+  }
+  
+  .player-list {
+    background: #fff; /* Cor de fundo para a lista */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+  }
+  
+  .player-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fffde7; /* Cor de fundo para cada entrada */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+  .player-rank {
+    color: #fbc02d; /* Cor do número de classificação */
+    font-weight: bold; /* Texto em negrito */
+    margin-right: 10px;
+  }
+  
+  .player-score {
+    margin-left: auto;
+    color: #f57f17; /* Cor da pontuação */
+    font-weight: bold; /* Texto em negrito */
+  }
+
+
+  .rank-icon {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px;
+}
+
+.rank-1 { color: gold; }
+.rank-2 { color: silver; }
+.rank-3 { color: #cd7f32; } /* Cor de bronze */

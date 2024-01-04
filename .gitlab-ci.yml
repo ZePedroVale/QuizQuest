@@ -1,0 +1,11 @@
+stages:
+  - test
+
+variables:
+  # Pode definir variáveis de ambiente aqui, se necessário
+
+test:
+  stage: test
+  script:
+    - pip install -r requirements.txt  # Instala as dependências
+    - pytest  # Executa os testes

@@ -1,0 +1,108 @@
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+  width: 100vw; /* Largura deve ser 100% da viewport */
+  padding: 20px; /* Espaçamento em volta do conteúdo*/
+  box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+  background-image: url('https://img.freepik.com/vetores-gratis/padrao-de-ponto-de-interrogacao-desenhado-a-mao_23-2149416649.jpg?w=826&t=st=1703033810~exp=1703034410~hmac=17041de12ef0250d570161d880adf8a866252214e3c9dd2ea4e600149eed5a6e'); /* Atualize com o caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+}
+
+.home-title {
+  font-size: 3em;
+  color: #ffffff; /* Cor branca para o texto */
+  text-shadow:
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+  margin-bottom: 0.5em;
+}
+
+.play-button {
+  font-size: 2em; /* Tamanho da fonte do botão */
+  padding: 10px 20px; /* Preenchimento do botão */
+  margin-bottom: 2em; /* Espaço abaixo do botão de PLAY */
+  color: #ffffff; /* Cor do texto */
+  background-color: transparent; /* Cor de fundo do botão PLAY */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase; /* Texto em maiúsculas */
+  transition: background-color 0.3s ease;
+
+  /* Efeito de contorno com sombra de texto */
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+.play-button:hover {
+  background-color: #e0a800; /* Cor ao passar o mouse */
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column; /* Botões em coluna para telas pequenas */
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 10px 20px; /* Preenchimento dos botões */
+  margin: 0.5em; /* Espaçamento entre os botões */
+  color: black;
+  background-color: #007bff; /* Azul para o botão primário */
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px; /* Largura fixa para os botões */
+  text-transform: uppercase; /* Texto em maiúsculas */
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #ffffff; /* Cinza para o botão secundário */
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 10px; /* Reduz o espaçamento em volta do conteúdo em telas menores */
+  }
+
+  .home-title {
+    margin-bottom: 0.5em; /* Reduz o espaçamento abaixo do título */
+  }
+
+  .play-button {
+    margin-bottom: 1em; /* Aumenta o espaçamento abaixo do botão de PLAY */
+  }
+
+  .action-buttons {
+    width: 100%; /* Faz com que os botões usem toda a largura disponível */
+    flex-direction: column; /* Mantém os botões em coluna */
+  }
+  
+  .btn {
+    width: 80%; /* Permite que os botões cresçam com o conteúdo */
+    margin: 0.5em auto; /* Espaçamento vertical entre botões */
+  }
+}

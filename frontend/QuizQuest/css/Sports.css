@@ -1,0 +1,45 @@
+/* Sports.css */
+.sports-container {
+    background-color: #ffc107; /* Cor de fundo amarela */
+    height: 100vh; /* Altura total da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+    width: 100vw; /* Largura deve ser 100% da viewport */
+    padding: 20px; /* Espaçamento em volta do conteúdo*/
+    box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+  }
+
+  .sports-title {
+    color: #333; /* Cor do texto */
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+    font-size: 48px; /* Tamanho da fonte */
+  }
+
+  .difficulty-button {
+    padding: 10px 20px;
+    margin: 10px 0; /* Espaçamento vertical entre os botões */
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    cursor: pointer;
+  }
+
+  .easy {
+    background-color: #8bc34a; /* Cor de fundo para Easy */
+  }
+
+  .medium {
+    background-color: #ffc107; /* Cor de fundo para Medium */
+  }
+
+  .hard {
+    background-color: #f44336; /* Cor de fundo para Hard */
+}

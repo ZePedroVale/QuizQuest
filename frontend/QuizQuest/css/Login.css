@@ -1,0 +1,56 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+  width: 100vw; /* Largura deve ser 100% da viewport */
+  padding: 20px; /* Espaçamento em volta do conteúdo*/
+  box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+  background-image: url('https://img.freepik.com/vetores-gratis/padrao-de-ponto-de-interrogacao-desenhado-a-mao_23-2149416649.jpg?w=826&t=st=1703033810~exp=1703034410~hmac=17041de12ef0250d570161d880adf8a866252214e3c9dd2ea4e600149eed5a6e'); /* Atualize com o caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif; /* Escolha a fonte que preferir */
+}
+
+.home-title {
+  font-size: 4em; /* Tamanho grande para o título */
+  color: #ffffff; /* Cor branca para o texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto para melhorar a legibilidade */
+  margin-bottom: 0.5em;
+}
+
+
+h2 {
+  color: #fff; /* Ou qualquer outra cor que combine com seu fundo */
+  margin-bottom: 2rem; /* Espaço antes do formulário */
+}
+
+input {
+  width: 80%; /* Tamanho do input baseado na largura do container */
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+button {
+  width: 80%;
+  padding: 1rem;
+  background-color: #ffcc00; /* Cor do botão, escolha o que preferir */
+  color: #000; /* Cor do texto dentro do botão */
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6b800; /* Cor do botão ao passar o mouse */
+}
+
+.error {
+  color: red; /* Cor da mensagem de erro */
+  margin-bottom: 1rem; /* Espaço antes do formulário */
+}

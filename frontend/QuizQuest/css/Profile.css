@@ -1,0 +1,48 @@
+
+.profile-container {
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    color: #333; /* Cor do texto */
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* A altura mínima deve ser a da viewport para que ocupe a tela inteira */
+    width: 100vw; /* Largura deve ser 100% da viewport */
+    padding: 20px; /* Espaçamento em volta do conteúdo*/
+    box-sizing: border-box; /* Garante que o padding não adicione largura ao elemento */
+  }
+
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-avatar {
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para tornar a imagem redonda */
+    margin-bottom: 10px;
+  }
+
+  .user-details {
+    margin-bottom: 20px;
+  }
+
+  .user-stats {
+    background: rgba(255, 255, 255, 0.8); /* Ligeira transparência */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para botão 'Editar Perfil' */
+  button {
+    background-color: #f0f0f0; 
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }

@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "QuizQuest",
+    "slug": "QuizQuest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.seuNome.QuizQuest"
+    },
+    "android": {
+      "package": "com.seuNome.QuizQuest"
+    }
+  }
+}
